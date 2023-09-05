@@ -23,15 +23,23 @@
   },
   "packageRules": [
     {
-      // Third party actions should be pinned with digest
-      "matchDepTypes": [
+      // automerge minor updates of devDependencies
+      matchPackagePatterns: [
+        "*"
+      ],
+      matchDepTypes: [
+        "devDependencies",
         "action"
+      ],
+      matchUpdateTypes: [
+        "minor"
       ],
       excludePackagePrefixes: [
         "actions/",
         "cybozu/"
       ],
-      "pinDigests": true
+      pinDigests: true,
+      automerge: true,
     }
   ]
 }
