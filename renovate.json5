@@ -1,7 +1,13 @@
 {
   extends: [
-    "github>cybozu/renovate-config",
-    ":prConcurrentLimitNone"
+    ":prConcurrentLimitNone",
+    ":ignoreModulesAndTests",
+    ":label(renovate)",
+    ":timezone(Asia/Tokyo)",
+    "group:monorepos",
+    ":widenPeerDependencies",
+    ":prImmediately",
+    ":dependencyDashboard"
   ],
   ignorePaths: [
     "**/node_modules/**",
@@ -14,7 +20,14 @@
   ],
   "schedule": ["*/5 * * * *"],
   npm: {
+    "extends": [
+      ":automergePatch",
+      ":separatePatchReleases",
+      "npm:unpublishSafe",
+      "helpers:disableTypesNodeMajor"
+    ],
     "schedule": ["*/5 * * * *"],
+    "rangeStrategy": "bump",
     packageRules: [
       {
         // automerge minor updates of devDependencies
