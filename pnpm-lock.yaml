@@ -12,20 +12,18 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
 
-  examples/package-example-a: {}
-
   packages/package-a:
     dependencies:
-      '@hung-cybo/package-b':
+      '@hungnt2308/package-b':
         specifier: workspace:^1.1.5
         version: link:../package-b
-      '@hung-cybo/package-c':
+      '@hungnt2308/package-c':
         specifier: workspace:^4.1.0
         version: link:../package-c
 
   packages/package-b:
     dependencies:
-      '@hung-cybo/package-c':
+      '@hungnt2308/package-c':
         specifier: workspace:^4.1.0
         version: link:../package-c
 
