@@ -1,10 +1,10 @@
 {
-  "name": "package-a",
+  "name": "@hung-cybo/package-a",
   "version": "1.2.5",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "package-b": "^1.1.5",
-    "package-c": "^4.1.0"
+    "@hung-cybo/package-b": "workspace:^1.1.5",
+    "@hung-cybo/package-c": "workspace:^4.1.0"
   }
 }

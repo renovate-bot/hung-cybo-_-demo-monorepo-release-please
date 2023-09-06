@@ -1,5 +1,5 @@
 {
-  "name": "package-c",
+  "name": "@hung-cybo/package-c",
   "version": "4.3.0",
   "main": "index.js",
   "license": "MIT"

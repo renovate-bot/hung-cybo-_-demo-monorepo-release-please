@@ -11,14 +11,14 @@
   "group-pull-request-title-pattern": "chore: release ${branch}",
   "packages": {
     "packages/package-a": {
-      "package-name": "@kintone/package-a",
+      "package-name": "@hung-cybo/package-a",
       "label": ":shell: Shell"
     },
     "packages/package-b": {
-      "package-name": "@kintone/package-b"
+      "package-name": "@hung-cybo/package-b"
     },
     "packages/package-c": {
-      "package-name": "@kintone/package-c"
+      "package-name": "@hung-cybo/package-c"
     }
   }
 }
