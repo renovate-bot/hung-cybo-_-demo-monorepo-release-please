@@ -3,6 +3,15 @@
     "github>cybozu/renovate-config",
     ":prConcurrentLimitNone"
   ],
+  ignorePaths: [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**",
+    "**/__tests__/**",
+    "**/test/**",
+    "**/tests/**",
+    "**/__fixtures__/**",
+  ],
   npm: {
     "schedule": ["at any time"],
     packageRules: [
@@ -23,23 +32,15 @@
   },
   "packageRules": [
     {
-      // automerge minor updates of devDependencies
-      matchPackagePatterns: [
-        "*"
-      ],
-      matchDepTypes: [
-        "devDependencies",
+      // Third party actions should be pinned with digest
+      "matchDepTypes": [
         "action"
-      ],
-      matchUpdateTypes: [
-        "minor"
       ],
       excludePackagePrefixes: [
         "actions/",
         "cybozu/"
       ],
-      pinDigests: true,
-      automerge: true,
+      "pinDigests": true
     }
   ]
 }
