@@ -2,7 +2,10 @@
   "name": "@hung-cybo/demo-monorepo-release-please",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:hung-cybo/demo-monorepo-release-please.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hung-cybo/demo-monorepo-release-please.git"
+  },
   "license": "MIT",
   "scripts": {
     "lint": "prettier --check '**/*.{json,md,yml,yaml}'",
@@ -11,5 +14,14 @@
   "devDependencies": {
     "prettier": "^3.0.1"
   },
-  "packageManager": "pnpm@8.6.12"
+  "packageManager": "pnpm@8.6.12",
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/hung-cybo/demo-monorepo-release-please/issues"
+  },
+  "homepage": "https://github.com/hung-cybo/demo-monorepo-release-please#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "author": "@hung-cybo"
 }
