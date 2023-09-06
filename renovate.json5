@@ -12,8 +12,8 @@
     "**/tests/**",
     "**/__fixtures__/**",
   ],
+  "schedule": ["at any time"],
   npm: {
-    "schedule": ["at any time"],
     packageRules: [
       {
         // automerge minor updates of devDependencies
