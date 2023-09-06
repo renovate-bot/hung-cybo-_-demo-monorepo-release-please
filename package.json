@@ -1,7 +1,13 @@
 {
   "name": "@hung-cybo/demo-monorepo-release-please",
   "version": "1.0.0",
+  "author": "@hung-cybo",
   "main": "index.js",
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/hung-cybo/demo-monorepo-release-please/issues"
+  },
+  "homepage": "https://github.com/hung-cybo/demo-monorepo-release-please#readme",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/hung-cybo/demo-monorepo-release-please.git"
@@ -14,14 +20,5 @@
   "devDependencies": {
     "prettier": "^3.0.1"
   },
-  "packageManager": "pnpm@8.6.12",
-  "description": "",
-  "bugs": {
-    "url": "https://github.com/hung-cybo/demo-monorepo-release-please/issues"
-  },
-  "homepage": "https://github.com/hung-cybo/demo-monorepo-release-please#readme",
-  "directories": {
-    "example": "examples"
-  },
-  "author": "@hung-cybo"
+  "packageManager": "pnpm@8.6.12"
 }
