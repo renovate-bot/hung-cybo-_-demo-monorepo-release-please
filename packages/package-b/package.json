@@ -3,8 +3,15 @@
   "version": "1.1.5",
   "main": "index.js",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+  "author": "@hung-cybo",
+  "bugs": {
+    "url": "https://github.com/hung-cybo/demo-monorepo-release-please/issues"
+  },
+  "homepage": "https://github.com/hung-cybo/demo-monorepo-release-please#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hung-cybo/demo-monorepo-release-please.git",
+    "directory": "packages/package-b"
   },
   "dependencies": {
     "@hungnt2308/package-c": "workspace:^4.1.0"
