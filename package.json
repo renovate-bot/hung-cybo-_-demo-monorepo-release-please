@@ -4,6 +4,7 @@
   "author": "@hung-cybo",
   "main": "index.js",
   "description": "",
+  "private": true,
   "bugs": {
     "url": "https://github.com/hung-cybo/demo-monorepo-release-please/issues"
   },
