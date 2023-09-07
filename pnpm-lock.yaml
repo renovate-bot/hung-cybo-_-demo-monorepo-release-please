@@ -18,13 +18,13 @@ importers:
         specifier: ^1.1.5
         version: link:../package-b
       '@hungnt2308/package-c':
-        specifier: ^4.1.0
+        specifier: ^4.9.0
         version: link:../package-c
 
   packages/package-b:
     dependencies:
       '@hungnt2308/package-c':
-        specifier: ^4.1.0
+        specifier: ^4.9.0
         version: link:../package-c
 
   packages/package-c: {}
