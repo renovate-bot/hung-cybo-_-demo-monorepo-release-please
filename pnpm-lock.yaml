@@ -15,16 +15,16 @@ importers:
   packages/package-a:
     dependencies:
       '@hungnt2308/package-b':
-        specifier: workspace:^1.1.5
+        specifier: ^1.1.5
         version: link:../package-b
       '@hungnt2308/package-c':
-        specifier: workspace:^4.1.0
+        specifier: ^4.1.0
         version: link:../package-c
 
   packages/package-b:
     dependencies:
       '@hungnt2308/package-c':
-        specifier: workspace:^4.1.0
+        specifier: ^4.1.0
         version: link:../package-c
 
   packages/package-c: {}

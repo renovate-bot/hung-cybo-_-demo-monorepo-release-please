@@ -14,6 +14,6 @@
     "directory": "packages/package-b"
   },
   "dependencies": {
-    "@hungnt2308/package-c": "workspace:^4.1.0"
+    "@hungnt2308/package-c": "^4.1.0"
   }
 }
