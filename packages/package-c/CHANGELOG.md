@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.9.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-c@4.8.0...package-c@4.9.0) (2023-09-07)
+
+
+### Features
+
+* add new feature ([20d1009](https://github.com/hung-cybo/demo-monorepo-release-please/commit/20d10098573b53c37839b6907ea2e61af9d208de))
+
 ## [4.8.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-c@4.7.0...package-c@4.8.0) (2023-09-06)
 
 
