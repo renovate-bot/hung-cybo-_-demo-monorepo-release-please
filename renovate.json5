@@ -18,7 +18,7 @@
     "**/tests/**",
     "**/__fixtures__/**",
   ],
-  "schedule": ["every 5 mins"],
+  "schedule": ["at any time"],
   npm: {
     "extends": [
       ":automergePatch",
@@ -26,7 +26,7 @@
       "npm:unpublishSafe",
       "helpers:disableTypesNodeMajor"
     ],
-    "schedule": ["every 5 mins"],
+    "schedule": ["at any time"],
     "rangeStrategy": "bump",
     packageRules: [
       {
