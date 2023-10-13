@@ -5,6 +5,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-      "@hungnt2308/package-d": "1.0.0"
+    "@hungnt2308/package-d": "1.0.0"
   }
 }
