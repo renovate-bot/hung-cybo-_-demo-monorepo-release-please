@@ -1,7 +1,10 @@
 {
-  "name": "package-example-a",
+  "name": "@hungnt2308/package-example-a",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+      "@hungnt2308/package-d": "1.0.0"
+  }
 }

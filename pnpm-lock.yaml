@@ -12,6 +12,12 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
 
+  examples/package-example-a:
+    dependencies:
+      '@hungnt2308/package-d':
+        specifier: 1.0.0
+        version: link:../../packages/package-d
+
   packages/package-a:
     dependencies:
       '@hungnt2308/package-b':
@@ -28,6 +34,8 @@ importers:
         version: link:../package-c
 
   packages/package-c: {}
+
+  packages/package-d: {}
 
 packages:
 
