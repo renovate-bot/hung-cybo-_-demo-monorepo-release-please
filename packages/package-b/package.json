@@ -17,6 +17,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@hungnt2308/package-c": "^4.9.0"
+    "@hungnt2308/package-c": "^6.0.0"
   }
 }

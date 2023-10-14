@@ -19,6 +19,6 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "@hungnt2308/package-b": "^1.1.5",
-    "@hungnt2308/package-c": "^4.9.0"
+    "@hungnt2308/package-c": "^6.0.0"
   }
 }
