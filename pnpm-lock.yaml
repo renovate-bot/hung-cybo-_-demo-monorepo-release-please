@@ -22,10 +22,10 @@ importers:
     dependencies:
       '@hungnt2308/package-b':
         specifier: ^1.1.5
-        version: link:../package-b
+        version: 1.1.5
       '@hungnt2308/package-c':
         specifier: ^4.9.0
-        version: link:../package-c
+        version: 4.9.0
       chalk:
         specifier: ^4.0.0
         version: 4.0.0
@@ -34,13 +34,23 @@ importers:
     dependencies:
       '@hungnt2308/package-c':
         specifier: ^4.9.0
-        version: link:../package-c
+        version: 4.9.0
 
   packages/package-c: {}
 
   packages/package-d: {}
 
 packages:
+
+  /@hungnt2308/package-b@1.1.5:
+    resolution: {integrity: sha512-tFAKTm+P38PZbH/Qq33tjWxQDBnYCJNVyl8OXp+GlPzIgovF1LKN3TSoXnYAlte67PW5OSlQYdcSB5vi3qX4zg==}
+    dependencies:
+      '@hungnt2308/package-c': 4.9.0
+    dev: false
+
+  /@hungnt2308/package-c@4.9.0:
+    resolution: {integrity: sha512-LgvlU//LHvuowOxCdRDqf7dqVHqbaWQjPeUowN+Bn3+ut7uOeSIjo8BaTzk0qFhMFbpJKbbdzWXRiyXfSlbGZg==}
+    dev: false
 
   /ansi-styles@4.3.0:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
