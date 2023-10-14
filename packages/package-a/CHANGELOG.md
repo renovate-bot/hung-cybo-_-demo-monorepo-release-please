@@ -35,6 +35,17 @@
     * package-b bumped to 1.1.5
     * package-c bumped to 4.1.0
 
+## [2.0.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-a@1.2.5...package-a@2.0.0) (2023-10-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop node 16 support
+
+### Build System
+
+* drop node 16 support ([b76e666](https://github.com/hung-cybo/demo-monorepo-release-please/commit/b76e66654ad9fc7bc453404d520c4d5f22e4159b))
+
 ## [1.2.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-a@1.1.0...package-a@1.2.0) (2023-09-02)
 
 
