@@ -21,8 +21,8 @@ importers:
   packages/package-a:
     dependencies:
       '@hungnt2308/package-b':
-        specifier: ^1.1.5
-        version: 1.1.5
+        specifier: ^3.0.0
+        version: link:../package-b
       '@hungnt2308/package-c':
         specifier: ^4.9.0
         version: 4.9.0
@@ -381,12 +381,6 @@ packages:
 
   /@bcoe/v8-coverage@0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
-    dev: false
-
-  /@hungnt2308/package-b@1.1.5:
-    resolution: {integrity: sha512-tFAKTm+P38PZbH/Qq33tjWxQDBnYCJNVyl8OXp+GlPzIgovF1LKN3TSoXnYAlte67PW5OSlQYdcSB5vi3qX4zg==}
-    dependencies:
-      '@hungnt2308/package-c': 4.9.0
     dev: false
 
   /@hungnt2308/package-c@4.9.0:
