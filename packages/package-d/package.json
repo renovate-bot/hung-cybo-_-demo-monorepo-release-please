@@ -12,6 +12,9 @@
     "url": "https://github.com/hung-cybo/demo-monorepo-release-please/issues"
   },
   "homepage": "https://github.com/hung-cybo/demo-monorepo-release-please#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/hung-cybo/demo-monorepo-release-please.git",

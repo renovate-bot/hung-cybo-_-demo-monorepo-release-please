@@ -13,6 +13,9 @@
     "url": "git+ssh://git@github.com/hung-cybo/demo-monorepo-release-please.git",
     "directory": "packages/package-b"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@hungnt2308/package-c": "^4.9.0"
   }
