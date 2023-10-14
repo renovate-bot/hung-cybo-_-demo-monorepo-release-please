@@ -12,6 +12,10 @@
   "monorepo-tags": true,
   "group-pull-request-title-pattern": "chore: release ${branch}",
   "packages": {
+    "examples/package-example-a": {
+      "package-name": "@hungnt2308/package-example-a",
+      "label": ":shell: Shell"
+    },
     "packages/package-a": {
       "package-name": "@hungnt2308/package-a",
       "label": ":shell: Shell"
@@ -21,6 +25,10 @@
     },
     "packages/package-c": {
       "package-name": "@hungnt2308/package-c"
+    },
+    "packages/package-d": {
+      "package-name": "@hungnt2308/package-d",
+      "label": ":shell: Shell"
     }
   }
 }
