@@ -1,7 +1,7 @@
 {
-  "examples/package-example-a": "1.0.0",
-  "packages/package-a": "2.0.0",
-  "packages/package-b": "2.0.0",
-  "packages/package-c": "5.0.0",
-  "packages/package-d": "1.0.0"
+  "examples/package-example-a": "2.0.0",
+  "packages/package-a": "3.0.0",
+  "packages/package-b": "3.0.0",
+  "packages/package-c": "6.0.0",
+  "packages/package-d": "2.0.0"
 }

@@ -30,6 +30,17 @@
   * dependencies
     * package-c bumped to 4.1.0
 
+## [3.0.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-b@2.0.0...package-b@3.0.0) (2023-10-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* add new features
+
+### Features
+
+* add new features ([4ff343f](https://github.com/hung-cybo/demo-monorepo-release-please/commit/4ff343f58a29028b1f696614d757cb226ac291d4))
+
 ## [2.0.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-b@1.1.5...package-b@2.0.0) (2023-10-14)
 
 
