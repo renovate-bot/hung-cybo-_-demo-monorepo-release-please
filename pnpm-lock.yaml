@@ -15,7 +15,7 @@ importers:
   examples/package-example-a:
     dependencies:
       '@hungnt2308/package-d':
-        specifier: 1.0.0
+        specifier: workspace:*
         version: link:../../packages/package-d
 
   packages/package-a:

@@ -8,6 +8,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@hungnt2308/package-d": "1.0.0"
+    "@hungnt2308/package-d": "workspace:*"
   }
 }
