@@ -35,6 +35,14 @@
     * package-b bumped to 1.1.5
     * package-c bumped to 4.1.0
 
+## [3.2.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-a@3.1.0...package-a@3.2.0) (2024-02-04)
+
+
+### Features
+
+* new feature abc ([61012e8](https://github.com/hung-cybo/demo-monorepo-release-please/commit/61012e801d440dc21dc1bbdd68f03239f321dde8))
+* new feature abc 123 ([cf10fa2](https://github.com/hung-cybo/demo-monorepo-release-please/commit/cf10fa2cd319f20b506eef914effc5b51bdfa44a))
+
 ## [3.1.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-a@3.0.0...package-a@3.1.0) (2024-02-04)
 
 
