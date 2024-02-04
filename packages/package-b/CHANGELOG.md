@@ -37,6 +37,13 @@
 
 * fix vulnerability issue ([c6c7b64](https://github.com/hung-cybo/demo-monorepo-release-please/commit/c6c7b6468964769a6311d42e05724aae68e54598))
 
+## [3.0.1](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-b@3.0.0...package-b@3.0.1) (2024-02-04)
+
+
+### Bug Fixes
+
+* fix vulnerability issue ([c6c7b64](https://github.com/hung-cybo/demo-monorepo-release-please/commit/c6c7b6468964769a6311d42e05724aae68e54598))
+
 ## [3.0.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-b@2.0.0...package-b@3.0.0) (2023-10-14)
 
 
