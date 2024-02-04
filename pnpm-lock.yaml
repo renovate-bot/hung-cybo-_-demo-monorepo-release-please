@@ -42,8 +42,8 @@ importers:
   packages/package-c:
     dependencies:
       jest-cli:
-        specifier: ^29.0.0
-        version: 29.0.0(@types/node@13.13.52)
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@13.13.52)
 
   packages/package-d: {}
 
@@ -993,6 +993,25 @@ packages:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
     dev: false
 
+  /create-jest@29.7.0(@types/node@13.13.52):
+    resolution: {integrity: sha512-Adz2bdH0Vq3F53KEMJOoftQFutWCukm6J24wbPWRO4k1kMY7gS7ds/uoJkNuV8wDCtWWnuwGcJwpWcih+zEW1Q==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    hasBin: true
+    dependencies:
+      '@jest/types': 29.6.3
+      chalk: 4.0.0
+      exit: 0.1.2
+      graceful-fs: 4.2.11
+      jest-config: 29.7.0(@types/node@13.13.52)
+      jest-util: 29.7.0
+      prompts: 2.4.2
+    transitivePeerDependencies:
+      - '@types/node'
+      - babel-plugin-macros
+      - supports-color
+      - ts-node
+    dev: false
+
   /cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
@@ -1366,8 +1385,8 @@ packages:
       - supports-color
     dev: false
 
-  /jest-cli@29.0.0(@types/node@13.13.52):
-    resolution: {integrity: sha512-VZUPQjWJKL8QABFiBk1tHeJ3czBodjU9r22ceQmeL7X8/M73FYxTte0RkYPHI2SiLPWy99GZNWA+oOu9x0xKOA==}
+  /jest-cli@29.7.0(@types/node@13.13.52):
+    resolution: {integrity: sha512-OVVobw2IubN/GSYsxETi+gOe7Ka59EFMR/twOU3Jb2GnKKeMGJB5SGUUrEz3SFVmJASUdZUzy83sLNNQ2gZslg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
     peerDependencies:
@@ -1380,13 +1399,12 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
       chalk: 4.0.0
+      create-jest: 29.7.0(@types/node@13.13.52)
       exit: 0.1.2
-      graceful-fs: 4.2.11
       import-local: 3.1.0
       jest-config: 29.7.0(@types/node@13.13.52)
       jest-util: 29.7.0
       jest-validate: 29.7.0
-      prompts: 2.4.2
       yargs: 17.7.2
     transitivePeerDependencies:
       - '@types/node'
