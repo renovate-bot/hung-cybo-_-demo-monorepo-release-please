@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">=18"
+    "node": ">=18.20.6"
   },
   "dependencies": {
     "@hungnt2308/package-d": "workspace:*"
