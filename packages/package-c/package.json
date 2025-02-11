@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/hung-cybo/demo-monorepo-release-please#readme",
   "engines": {
-    "node": ">=18"
+    "node": ">=22.14.0"
   },
   "repository": {
     "type": "git",
